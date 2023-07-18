@@ -1,0 +1,70 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  text-align: right;
+}
+
+.container .payment-schedule {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.container .payment-schedule h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.container .payment-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container .payment-schedule th,
+.container .payment-schedule td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.container .payment-schedule th:first-child,
+.container .payment-schedule td:first-child {
+  padding-left: 0;
+}
+
+.container .payment-schedule th:last-child,
+.container .payment-schedule td:last-child {
+  padding-right: 0;
+}
+
+.container .payment-schedule th {
+  background-color: #f1f1f1;
+}
+
+.container .payment-schedule tr:last-child td {
+  border-bottom: none;
+}

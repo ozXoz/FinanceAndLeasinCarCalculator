@@ -1,0 +1,32 @@
+{
+  "carFinanceCalculator": {
+    "title": "Car Finance Calculator",
+    "carPrice": "Car Price",
+    "downPayment": "Down Payment",
+    "interestRate": "Interest Rate (% p.a.)",
+    "financeTerm": "Finance Term (months)",
+    "monthlyFinancePayment": "Monthly Finance Payment",
+    "paymentSchedule": "Payment Schedule",
+    "paymentDate": "Payment Date",
+    "paymentAmount": "Payment Amount",
+    "showAll": "Show All",
+    "Finance": "Finance",
+    "includedTax": "Included Tax",
+  "Lease": "Lease"
+  },
+  "leaseCalculator": {
+    "title": "Car Lease Calculator",
+    "carPrice": "Car Price",
+    "leaseTerm": "Lease Term (months)",
+    "leasingRate": "Leasing Rate (%)",
+    "downPayment": "Down Payment",
+    "monthlyLeasePayment": "Monthly Lease Payment",
+    "paymentSchedule": "Payment Schedule",
+    "paymentDate": "Payment Date",
+    "paymentAmount": "Payment Amount",
+    "showAll": "Show All",
+    "Finance": "Finance", 
+    "includedTax": "Included Tax",
+  "Lease": "Lease"
+  }
+}

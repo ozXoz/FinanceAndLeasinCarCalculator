@@ -1,0 +1,48 @@
+.container .payment-schedule {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center; /* Add this line to center-align the content */
+}
+
+.container .payment-schedule h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container .payment-schedule ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0; /* Add this line to remove the default margin */
+}
+
+.container .payment-schedule li {
+  margin-bottom: 5px;
+}
+
+.container .payment-schedule li::before {
+  content: "▸ ";
+}
+
+.container .payment-schedule button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container .payment-schedule button:hover {
+  background-color: #45a049;
+}
+
+.container .payment-schedule button:focus {
+  outline: none;
+}
+
+.container .payment-schedule button:active {
+  background-color: #3e8e41;
+}
